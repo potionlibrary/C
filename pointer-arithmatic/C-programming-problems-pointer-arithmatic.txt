@@ -1,4 +1,4 @@
-Sure, here are three problems that involve pointer arithmetic and memory manipulation in C, arranged in order of increasing difficulty:
+Problems that involve pointer arithmetic and memory manipulation in C, arranged in order of increasing difficulty:
 
 1. Write a C program that uses pointers to swap the values of two variables. 
    This is a classic introductory problem that helps you practice basic pointer syntax and usage.
