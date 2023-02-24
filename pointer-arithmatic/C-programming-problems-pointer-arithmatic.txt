@@ -1,0 +1,12 @@
+Sure, here are three problems that involve pointer arithmetic and memory manipulation in C, arranged in order of increasing difficulty:
+
+1. Write a C program that uses pointers to swap the values of two variables. 
+   This is a classic introductory problem that helps you practice basic pointer syntax and usage.
+
+2. Implement a function in C that performs an in-place reversal of a null-terminated string. 
+   This requires you to use pointer arithmetic to manipulate memory directly, and can be challenging to implement correctly.
+
+3. Implement a dynamic memory allocator in C, similar to malloc() and free(). 
+   This involves more advanced pointer arithmetic and memory management concepts, such as maintaining a free list and coalescing adjacent free blocks of memory.
+
+Each of these problems requires you to use pointers and manipulate memory directly, but the difficulty level increases progressively. The first problem is relatively straightforward and is a good starting point for beginners, while the third problem is more advanced and requires a deeper understanding of C memory management.
