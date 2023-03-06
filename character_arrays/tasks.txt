@@ -1,0 +1,19 @@
+Write a program that takes a character array and a new character as input, and adds the character to the end of the array.
+
+Write a program that takes a character array and a new character as input, and adds the character to the beginning of the array.
+
+Write a program that takes a character array and two indices as input, and inserts a new character at the specified index.
+
+Write a program that takes a character array and a substring as input, and inserts the substring at the specified index.
+
+Write a program that takes two character arrays as input, and concatenates them by adding the second array to the end of the first array.
+
+Write a program that takes two character arrays as input, and concatenates them by inserting the second array at the specified index in the first array.
+
+Write a program that takes a character array as input and removes all occurrences of a specified character from the array.
+
+Write a program that takes a character array as input and removes all occurrences of a specified substring from the array.
+
+Write a program that takes a character array as input and reverses the order of the characters in the array.
+
+Write a program that takes a character array as input and sorts the characters in the array in alphabetical order.
