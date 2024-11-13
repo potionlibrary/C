@@ -1,0 +1,95 @@
+15	int TABLE_MARKER = 5;
+16	
+17	
+18	#include<stdio.h>
+19	int main (void){
+20	    printf("HelloWorld\n");
+21	    
+22	    create_border(TABLE_LENGTH,TABLE_MARKER);
+23	    
+24	    return 0;
+Breakpoint 1 at 0x401173: file BeutifulTable.c, line 30.
+Starting program: /root/workdesk/c-space/BeutifulTable-11-12-2024/BeutifulTable 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+
+Breakpoint 1, create_border (length=1, marker=5) at BeutifulTable.c:30
+30	     for (int k = length; k >= 0; k--){
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.34-100.el9_4.4.x86_64
+$1 = 0
+32		 for (int i = 0; i <= marker; i++){
+25	}
+26	
+27	void create_border (int length, int marker){
+28	     
+29	     
+30	     for (int k = length; k >= 0; k--){
+31	  
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+34		        printf("+");
+22	    create_border(TABLE_LENGTH,TABLE_MARKER);
+23	    
+24	    return 0;
+25	}
+26	
+27	void create_border (int length, int marker){
+28	     
+29	     
+30	     for (int k = length; k >= 0; k--){
+31	  
+25	}
+26	
+27	void create_border (int length, int marker){
+28	     
+29	     
+30	     for (int k = length; k >= 0; k--){
+31	  
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+34		        printf("+");
+30	     for (int k = length; k >= 0; k--){
+31	  
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+34		        printf("+");
+35		     }
+36		     printf("-");
+37	         }
+38		 printf("+");
+39	
+33		     if (i==0){
+34		        printf("+");
+36		     printf("-");
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+36		     printf("-");
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+36		     printf("-");
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+36		     printf("-");
+32		 for (int i = 0; i <= marker; i++){
+$2 = 3
+$3 = 1
+33		     if (i==0){
+36		     printf("-");
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+36		     printf("-");
+32		 for (int i = 0; i <= marker; i++){
+38		 printf("+");
+30	     for (int k = length; k >= 0; k--){
+31	  
+32		 for (int i = 0; i <= marker; i++){
+33		     if (i==0){
+34		        printf("+");
+35		     }
+36		     printf("-");
+37	         }
+38		 printf("+");
+39	
+No symbol "i" in current context.
+$4 = 1
+30	     for (int k = length; k >= 0; k--){
